@@ -1,0 +1,40 @@
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+    border: 2px solid black;
+}
+
+.cell {
+    background-image: url(back.jpg);
+    width: 150px;
+    height: 150px;
+    display: block;
+    float: left;
+    margin: 2px;
+}
+
+.end {
+    clear: right;
+}
+
+.hidden {
+    visibility: hidden;
+}
+
+#grid {
+    width: 616px;
+    height: 616px;
+    padding: 5px;
+    float: left;
+}
+
+#panel {
+    padding: 10px 0 0 15px;
+    width: 100%;
+    float: left;
+    font-family: Verdana;
+    font-weight: bold;
+    font-size: 1em;
+}

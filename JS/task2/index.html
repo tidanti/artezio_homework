@@ -1,0 +1,22 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+  <head>
+    <!-- <script src="script.js"></script> -->
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+  </head>
+  <body>
+    <form>
+    X1: <input type=text" id="x1"></br>
+    X2: <input type="text" id="x2"></br>
+    <input type="radio" id="sum" name="op" checked>
+      <label for="sum">Сумма от X1 до X2</label></br>
+    <input type="radio" id="mult" name="op">
+      <label for="mult">Произведение от X1 до X2</label></br>
+    <input type="radio" id="primeNum" name="op">
+      <label for="primeNum">Простые числа от X1 до X2</label></br>
+    <input type="button" value="Run" onclick="buttonClick()">
+    <input type="button" value="Очистить" onclick="buttonClear()"></br>
+    <div id="result"></div>
+    </form>
+  </body>
+</html>
