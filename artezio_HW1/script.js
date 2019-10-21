@@ -1,5 +1,7 @@
 // task1
 let matrix = [[1, 2, 3], [4, 5, 6], [7, 8, 9]];
+let matrixx = [[1, 2, 3, 4], [4, 5, 6, 8], [7, 8, 9, 3]]; //for test
+let matrixxx = [[1, 2], [4, 5], [7, 8]]; //for test
 
 function matrSum(matrix) {
   let sum = 0;
@@ -17,6 +19,8 @@ console.log(matrSum(matrix));
 let matrix2 = [[1, 2, 3, 4],
               [5, 6, 7, 8],
               [9, 10, 11, 12]];
+let matrixx2 = [[1, 2, 3], [4, 5, 6], [7, 8, 9]]; //for test
+let matrixxx2 = [[1, 2], [4, 5], [7, 8]]; //for test
 
 function matrRotate(matr) {
   let res = [];
@@ -35,6 +39,9 @@ console.log(resMatr);
 
 // task3
 let string = 'Hello, world';
+let stringg = 'Hello, worldd';
+let stringgg = 'Hhello, world';
+let test = 'ffreerhg';
 
 function uniq(str) {
   let arr = str.split('');
